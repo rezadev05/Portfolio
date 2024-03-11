@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: #060417;
+}
+
+/* Untuk Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 5px; /* Ubah ukuran scrollbar di sini */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Ubah warna thumb scrollbar di sini */
+}
+
+/* Untuk Firefox */
+/* Anda mungkin perlu menambahkan prefix -moz- untuk beberapa versi Firefox */
+/* Contoh: ::-moz-scrollbar, ::-moz-scrollbar-thumb, dst. */
+
+/* Ubah warna thumb scrollbar di sini */
+/* Perhatikan bahwa Firefox tidak mendukung pengaturan ukuran scrollbar seperti Webkit */
+
+/* Contoh:
+::-moz-scrollbar {
+  width: 5px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #ff0000;
+}
+*/
