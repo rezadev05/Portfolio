@@ -7,6 +7,7 @@ import WorkExperience from "./components/WorkExperience/WorkExperience";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Education from "./components/Education/Education";
+import { Project } from "./components/Project/Project";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Skills />
         <WorkExperience />
         <Education />
+        <Project />
         <ContactMe />
       </div>
 

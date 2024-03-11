@@ -7,6 +7,9 @@ export const SKILLS = [
       { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
       { skill: "JavaScript", percentage: "75%" },
       { skill: "React.js", percentage: "80%" },
+      { skill: "Vue.js", percentage: "70%" },
+      { skill: "Tailwind", percentage: "74%" },
+      { skill: "Boostrap", percentage: "80%" },
     ],
   },
   {
@@ -15,6 +18,8 @@ export const SKILLS = [
     skills: [
       { skill: "Node.js", percentage: "70%" },
       { skill: "Express.js", percentage: "65%" },
+      { skill: "Apache", percentage: "80%" },
+      { skill: "Nginx", percentage: "71%" },
     ],
   },
   {
@@ -23,9 +28,12 @@ export const SKILLS = [
     skills: [
       { skill: "Git & GitHub", percentage: "85%" },
       { skill: "Visual Studio Code", percentage: "75%" },
-      { skill: "Webpack", percentage: "60%" },
-      { skill: "Responsive Design", percentage: "70%" },
+      { skill: "Figma", percentage: "60%" },
+      { skill: "Arduino", percentage: "70%" },
+      { skill: "Winbox", percentage: "89%" },
+      { skill: "Mikhmon Server", percentage: "80%" },
       { skill: "Android Studio", percentage: "61%" },
+      { skill: "Canva", percentage: "79%" },
     ],
   },
   {
@@ -86,3 +94,7 @@ export const EDUCATION = [
     ],
   },
 ];
+
+export const getImageUrl = (path) => {
+  return `/assets/${path}`;
+};

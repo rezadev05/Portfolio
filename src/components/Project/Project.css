@@ -1,0 +1,21 @@
+.container-project {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.container-project h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+}
+
+.project {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}

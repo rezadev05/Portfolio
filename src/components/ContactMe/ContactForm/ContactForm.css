@@ -2,6 +2,52 @@
   width: 100%;
 }
 
+.success-popup {
+  position: fixed;
+  top: 20px; /* Sesuaikan posisi atas sesuai keinginan Anda */
+  right: 20px; /* Sesuaikan posisi kanan sesuai keinginan Anda */
+  background-color: #4caf50; /* Warna latar belakang pesan sukses */
+  color: #fff; /* Warna teks pesan sukses */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  animation: slideIn 0.5s ease-in-out;
+
+  /* Gaya animasi slide masuk */
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+.error-popup {
+  position: fixed;
+  top: 20px; /* Sesuaikan posisi atas sesuai keinginan Anda */
+  right: 20px; /* Sesuaikan posisi kanan sesuai keinginan Anda */
+  background-color: #f90000; /* Warna latar belakang pesan sukses */
+  color: #fff; /* Warna teks pesan sukses */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  animation: slideIn 0.5s ease-in-out;
+
+  /* Gaya animasi slide masuk */
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
 form {
   display: flex;
   flex-direction: column;
