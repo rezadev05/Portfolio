@@ -9,6 +9,8 @@ import Footer from "./components/Footer/Footer";
 import Education from "./components/Education/Education";
 import { Project } from "./components/Project/Project";
 import ReactGA from "react-ga4";
+=======
+>>>>>>> e77411bbe9def9290fa8d5b143eae9960531a0b8
 
 const App = () => {
   ReactGA.initialize("your GA measurement id");

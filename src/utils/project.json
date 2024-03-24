@@ -12,7 +12,11 @@
   {
     "title": "Finalist ODC",
     "imageSrc": "images/sertifikatOdc.png",
+<<<<<<< HEAD
     "description": "Finalist in the October Digital Creativity competition at province level (Bekasi East Java).",
+=======
+    "description": "Finalist in the October Digital Creativity competition at district level (Bekasi East Java).",
+>>>>>>> e77411bbe9def9290fa8d5b143eae9960531a0b8
     "button_1": "Github",
     "button_2": "Download",
     "skills": ["Html", "CSS", "Javascript", "MySql", "Python"],
