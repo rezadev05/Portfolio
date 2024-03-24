@@ -7,8 +7,12 @@ import WorkExperience from "./components/WorkExperience/WorkExperience";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Education from "./components/Education/Education";
+import { Project } from "./components/Project/Project";
+import ReactGA from "react-ga4";
 
 const App = () => {
+  ReactGA.initialize("your GA measurement id");
+  ReactGA.send("pageview");
   return (
     <>
       <Navbar />
@@ -17,9 +21,9 @@ const App = () => {
         <Skills />
         <WorkExperience />
         <Education />
+        <Project />
         <ContactMe />
       </div>
-
       <Footer />
     </>
   );

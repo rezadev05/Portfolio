@@ -1,10 +1,14 @@
 import React from "react";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import "./MobileNav.css";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
   const handleScroll = (sectionId) => {
     if (isOpen) toggleMenu();
-    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+    scroll.scrollTo(document.getElementById(sectionId).offsetTop - 80, {
+      smooth: true,
+      duration: 500,
+    });
   };
 
   const handleDownloadCv = () => {
@@ -27,36 +31,69 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 
           <ul>
             <li>
-              <a onClick={() => handleScroll("hero")} className="menu-item">
+              <ScrollLink
+                to="hero"
+                smooth={true}
+                onClick={() => handleScroll("hero")}
+                className="menu-item"
+              >
                 Home
-              </a>
+              </ScrollLink>
             </li>
 
             <li>
-              <a onClick={() => handleScroll("skills")} className="menu-item">
+              <ScrollLink
+                to="skills"
+                smooth={true}
+                onClick={() => handleScroll("skills")}
+                className="menu-item"
+              >
                 Skills
-              </a>
+              </ScrollLink>
             </li>
 
             <li>
-              <a onClick={() => handleScroll("work-exp")} className="menu-item">
-                Work Experience
-              </a>
+              <ScrollLink
+                to="work-exp"
+                smooth={true}
+                onClick={() => handleScroll("work-exp")}
+                className="menu-item"
+              >
+                Experience
+              </ScrollLink>
             </li>
 
             <li>
-              <a
+              <ScrollLink
+                to="education"
+                smooth={true}
                 onClick={() => handleScroll("education")}
                 className="menu-item"
               >
                 Education
-              </a>
+              </ScrollLink>
             </li>
 
             <li>
-              <a onClick={() => handleScroll("contact")} className="menu-item">
-                Contact Me
-              </a>
+              <ScrollLink
+                to="project"
+                smooth={true}
+                onClick={() => handleScroll("project")}
+                className="menu-item"
+              >
+                Project
+              </ScrollLink>
+            </li>
+
+            <li>
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                onClick={() => handleScroll("contact")}
+                className="menu-item"
+              >
+                Contact
+              </ScrollLink>
             </li>
 
             <button className="contact-btn" onClick={handleDownloadCv}>

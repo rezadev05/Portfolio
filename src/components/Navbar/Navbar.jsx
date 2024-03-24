@@ -63,7 +63,7 @@ function NavBar() {
                 offset={-100}
                 className="menu-item"
               >
-                Work Experience
+                Experience
               </Link>
             </li>
 
@@ -83,13 +83,26 @@ function NavBar() {
             <li>
               <Link
                 activeClass="active"
+                to="project"
+                smooth
+                spy
+                offset={-100}
+                className="menu-item"
+              >
+                Project
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                activeClass="active"
                 to="contact"
                 smooth
                 spy
                 offset={-100}
                 className="menu-item"
               >
-                Contact Me
+                Contact
               </Link>
             </li>
 
@@ -98,9 +111,9 @@ function NavBar() {
             </button>
           </ul>
 
-          <button class="menu-btn" onClick={toggleMenu}>
+          <button className="menu-btn" onClick={toggleMenu}>
             <span
-              class={"material-symbols-outlined"}
+              className={"material-symbols-outlined"}
               style={{ fontSize: "1.8rem" }}
             >
               {openMenu ? "close" : "menu"}

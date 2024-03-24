@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Champion #1",
+    "imageSrc": "images/sertifikatTtg.png",
+    "description": "Winner of appropriate technology competition at district/city level (Banjar East Java).",
+    "button_1": "Github",
+    "button_2": "Download",
+    "skills": ["Javascript", "Nodejs"],
+    "demo": "https://www.github.com/rezadev05",
+    "source": "https://www.mediafire.com/file/2knblps6ajq5czu/SERTIFIKAT_TTG_JUARA.pdf/file"
+  },
+  {
+    "title": "Finalist ODC",
+    "imageSrc": "images/sertifikatOdc.png",
+    "description": "Finalist in the October Digital Creativity competition at province level (Bekasi East Java).",
+    "button_1": "Github",
+    "button_2": "Download",
+    "skills": ["Html", "CSS", "Javascript", "MySql", "Python"],
+    "demo": "https://www.github.com/rezadev05",
+    "source": "https://www.mediafire.com/file/h7mew1zj8h51g3n/SERTIFIKAT_ODC_FINALIS.pdf/file"
+  },
+  {
+    "title": "Push Kontak",
+    "imageSrc": "images/preview.png",
+    "description": "Broadcast WhatsApp messages via group ID and auto save all contacts in the group.",
+    "button_1": "Demo",
+    "button_2": "Source",
+    "skills": ["Javascript", "Nodejs"],
+    "demo": "https://www.github.com/rezadev05/Push-Kontak",
+    "source": "https://www.github.com/rezadev05/Push-Kontak"
+  }
+]
